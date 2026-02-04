@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[5]={10, 90, 30, 60, 80};
+	int key;
+	cout<<"Enter a Numer to Search:";
+	cin>> key;
+	for( int i=0; i < 5;
+	 i++){
+		if (arr[i]== key){
+		cout<<"Found At Index:"<<i;
+		return 0;
+	}
+}
+cout<<" Sorry Not Found!";
+return 0;
+}
